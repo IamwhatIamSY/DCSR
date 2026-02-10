@@ -4,10 +4,10 @@ The artifacts for our paper "DCSR: A Fast Data Structure with Leaf-Oriented Lock
 ## Description
 The files or folders for DCSR in our artifacts include:
 
-- run_dcsr.cc. This file provides the interfaces for streaming graph processing to BYO. 
-- BUILD. We add the dependencies for DCSR to the original BUILD file. 
-- WORKSPACE. We add the DCSR local repository to the original WORKSPACE file. 
-- dcsr. This folder contains the main file dcsr/include/dcsr1.0/partition.h and other files for DCSR.
+- `run_dcsr.cc`. This file provides the interfaces for streaming graph processing to BYO. 
+- `BUILD`. We add the dependencies for DCSR to the original BUILD file. 
+- `WORKSPACE`. We add the DCSR local repository to the original WORKSPACE file. 
+- `dcsr`. This folder contains the main file `dcsr/include/dcsr1.0/partition.h` and other files for DCSR.
 
 ## Dependencies
 The dependencies for [BYO](https://github.com/wheatman/BYO) should be satisfied:
@@ -26,27 +26,27 @@ git clone https://github.com/IamwhatIamSY/DCSR.git
  
  Then, the files of DCSR should be integrated into BYO following the steps:
 
-- add the file DCSR/run_dcsr.cc to the folder BYO/benchmarks/run_structures/.
+- add the file `DCSR/run_dcsr.cc` to the folder `BYO/benchmarks/run_structures/`.
   
 ```
 mv DCSR/run_dcsr.cc BYO/benchmarks/run_structures/
 ```
 
-- replace the file BYO/benchmarks/run_structures/BUILD with the file DCSR/BUILD.
+- replace the file `BYO/benchmarks/run_structures/BUILD` with the file `DCSR/BUILD`.
 
 ```
 mv BYO/benchmarks/run_structures/BUILD BYO/benchmarks/run_structures/BUILD.bak
 mv DCSR/BUILD BYO/benchmarks/run_structures/
 ```
 
-- replace the file BYO/WORKSPACE with the file DCSR/WORKSPACE.
+- replace the file `BYO/WORKSPACE` with the file `DCSR/WORKSPACE`.
 
 ```
 mv BYO/WORKSPACE BYO/WORKSPACE.bak
 mv DCSR/WORKSPACE BYO/
 ```
 
-- add the folder DCSR/dcsr to the folder BYO/external/.
+- add the folder `DCSR/dcsr` to the folder `BYO/external/`.
 
 ```
 mv DCSR/dcsr BYO/external/
