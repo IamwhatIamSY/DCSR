@@ -10,7 +10,7 @@ The files or folders for DCSR in our artifacts include:
 - dcsr. This folder contains the main file dcsr/include/dcsr1.0/partition.h and other files for DCSR.
 
 ## Dependencies
-The dependencies for BYO should be satisfied:
+The dependencies for [BYO](https://github.com/wheatman/BYO) should be satisfied:
 
 - Bazel 2.1.0. 
 - g++ >= 11 with OpenMP support. 
