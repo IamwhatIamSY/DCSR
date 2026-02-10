@@ -62,12 +62,12 @@ DCSR can be run as required by [BYO](https://github.com/wheatman/BYO). Here are 
 bazel build benchmarks/run_structures:run_dcsr --config=openmp
 ```
 
-- Use DCSR for graph computation on the undirected graph with source vertex 10.
+- Use DCSR for graph computation on an undirected graph with source vertex 10.
 ```
 numactl -i all ./bazel-bin/benchmarks/run_structures/run_dcsr -s -src 10 /path/to/graph
 ```
 
-- Use DCSR for the graph update on the undirected graph.
+- Use DCSR for graph update on an undirected graph.
 ```
 numactl -i all ./bazel-bin/benchmarks/run_structures/run_dcsr -i -s /path/to/graph
 ```
