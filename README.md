@@ -25,20 +25,27 @@ git clone https://github.com/IamwhatIamSY/DCSR.git
  Then, the files of DCSR should be integrated into BYO following the steps:
 
 - add the file DCSR/run_dcsr.cc to the folder BYO/benchmarks/run_structures/.
+  
 ```
 mv DCSR/run_dcsr.cc BYO/benchmarks/run_structures/
 ```
+
 - replace the file BYO/benchmarks/run_structures/BUILD with the file DCSR/BUILD.
+
 ```
 mv BYO/benchmarks/run_structures/BUILD BYO/benchmarks/run_structures/BUILD.bak
 mv DCSR/BUILD BYO/benchmarks/run_structures/
-'''
+```
+
 - replace the file BYO/WORKSPACE with the file DCSR/WORKSPACE.
+
 ```
 mv BYO/WORKSPACE BYO/WORKSPACE.bak
 mv DCSR/WORKSPACE BYO/
 ```
+
 - add the folder DCSR/dcsr to the folder BYO/external/.
+
 ```
 mv DCSR/dcsr BYO/external/
 ```
