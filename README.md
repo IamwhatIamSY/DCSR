@@ -1,2 +1,2 @@
 # DCSR
-The artifacts for DCSR, a fast data structure with leaf-oriented locks for streaming graph processing
+The artifacts for our paper "DCSR: A Fast Data Structure with Leaf-Oriented Locks for Streaming Graph Processing" (EDBT 2026). The primary innovation of DCSR is a leaf-oriented parallel update strategy that comprises two phases of lock-based update and decoupled rebalancing to fully exploit parallelism with minimal conflicts. We developed DCSR based on [BYO](https://github.com/wheatman/BYO), a unified framework for benchmarking large-scale graph containers.  
