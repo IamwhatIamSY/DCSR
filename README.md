@@ -7,7 +7,7 @@ The files or folders for DCSR in our artifacts include:
 - `run_dcsr.cc`. This file provides the interfaces for streaming graph processing to BYO. 
 - `BUILD`. We add the dependencies for DCSR to the original BUILD file. 
 - `WORKSPACE`. We add the DCSR local repository to the original WORKSPACE file. 
-- `dcsr`. This folder contains the main file `dcsr/include/dcsr1.0/partition.h` and other files for DCSR.
+- `dcsr/`. This folder contains the main file `dcsr/include/dcsr1.0/partition.h` and other files for DCSR.
 
 ## Dependencies
 The dependencies for [BYO](https://github.com/wheatman/BYO) should be satisfied:
