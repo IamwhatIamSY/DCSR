@@ -1,0 +1,5 @@
+WARNING: Ignoring JAVA_HOME, because it must point to a JDK, not a JRE.
+Starting local Bazel server and connecting to it...
+INFO: Options provided by the client:
+  Inherited 'common' options: --isatty=0 --terminal_columns=121
+ERROR: Config value openmp is not defined in any .rc file
