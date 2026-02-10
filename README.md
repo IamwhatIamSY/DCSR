@@ -13,7 +13,8 @@ The files or folders for DCSR in our artifacts include:
 The dependencies for [BYO](https://github.com/wheatman/BYO) should be satisfied:
 
 - Bazel 2.1.0. 
-- g++ >= 11 with OpenMP support. 
+- g++ >= 11 with OpenMP support.
+- Other external libraries as submodules acquired by [BYO](https://github.com/wheatman/BYO).
 
 ## Installation
  First of all, download the source code of [BYO](https://github.com/wheatman/BYO) and DCSR.
