@@ -17,10 +17,11 @@ The dependencies for BYO should be satisfied:
 
 ## Installation
  First of all, download the source code of [BYO](https://github.com/wheatman/BYO) and DCSR.
- '''
+ 
+```
 git clone https://github.com/wheatman/BYO.git
 git clone https://github.com/IamwhatIamSY/DCSR.git
- '''
+```
  
  Then, the files of DCSR should be integrated into BYO following the steps:
 
